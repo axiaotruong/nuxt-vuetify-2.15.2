@@ -86,7 +86,6 @@
 <script>
 export default {
   name: 'Home',
-  // fetchOnServer: false,
   asyncData() {
     return {
       rendering: process.server ? 'server' : 'client',
